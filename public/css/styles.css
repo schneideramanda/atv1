@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #3a8d9a;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nomeForm {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 8px;
+    border: 1px solid white;
+    margin-bottom: 50px;
+    padding: 20px;
+    min-width: 460px;
+    background-color: #e7e7e7;
+}
+
+button {
+    border-radius: 8px;
+    border: none;
+    padding: 20px;
+    background-color: white;
+}
+
+.titulo {
+    margin-bottom: 120px;
+    color: white;
+}
+
+img {
+    height: 300px;
+    width: 500px;
+}
+
+.bg-nome {
+    background-color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    min-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nome {
+    color: black;
+    font-size: 20px;
+}
